@@ -48,10 +48,32 @@ export default function Navbar(props) {
               {/* <li className="flex items-center">
                 <IndexDropdown />
               </li> */}
-              <li className="flex items-center ml-2">About</li>
-              <li className="flex items-center ml-2">Profile</li>
-              <li className="flex items-center ml-2">Search</li>
-              <li className="flex items-center">
+              <li className="flex items-center ml-3">
+                <Link 
+                  to="/"
+                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                Home
+                  </Link>
+              </li>
+              <li className="flex items-center ml-3">
+                <Link to="/"
+                className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                About
+                </Link>
+              </li>
+              <li className="flex items-center ml-3">
+                <Link to="/search"
+                className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                Search
+                </Link>
+              </li>
+              <li className="flex items-center ml-3">
+                <Link to="/profile"
+                className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                Profile
+                </Link>
+              </li>
+              {/* <li className="flex items-center">
                 <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/"
@@ -82,9 +104,9 @@ export default function Navbar(props) {
                   <i className="text-blueGray-400 fab fa-github text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Star</span>
                 </a>
-              </li>
+              </li> */}
 
-              <li className="flex items-center">
+              <li className="flex items-center ml-4">
                 <button
                   className="bg-lightBlue-500 text-white active:bg-lightBlue-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
