@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
-import Faq from "components/FAQ/Faq.js"
-import IndexContact from "components/Contact/IndexContact.js"
+import Faq from "components/FAQ/Faq.js";
+import IndexContact from "components/Contact/IndexContact.js";
 
 export default function Index() {
   return (
@@ -39,14 +39,14 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
+                  href="/"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
+                  href="/"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
@@ -58,8 +58,8 @@ export default function Index() {
         </div>
 
         <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src={require("assets/img/pattern_react.png").default}
+          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-400px"
+          src={require("assets/img/hero.svg").default}
           alt="..."
         />
       </section>
@@ -200,7 +200,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="block relative z-1 bg-blueGray-600">
+      <section className="block relative z-1 bg-blueGray-100">
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
@@ -209,12 +209,12 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Fill Out Forms
                   </h5>
-                  <Link to="/auth/login">
+                  <Link to="/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/login.jpg").default}
+                        src={require("assets/img/forms2.svg").default}
                       />
                     </div>
                   </Link>
@@ -224,12 +224,12 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     AI Chat Bot
                   </h5>
-                  <Link to="/profile">
+                  <Link to="/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/profile.jpg").default}
+                        src={require("assets/img/chatbot1.svg").default}
                       />
                     </div>
                   </Link>
@@ -244,7 +244,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="assets/img/landing.jpg"
+                        src={require("assets/img/analytics.svg").default}
                       />
                     </div>
                   </Link>
@@ -351,11 +351,9 @@ export default function Index() {
                     target="_blank"
                   >
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
-                      />
+                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-md">
+                        <i className="fas fa-upload text-xl text-gray-600"></i>
+                      </div>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Upload
                       </p>
@@ -366,11 +364,9 @@ export default function Index() {
                     target="_blank"
                   >
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
-                      />
+                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-md">
+                        <i className="fas fa-cog text-xl text-gray-600"></i>
+                      </div>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Customize
                       </p>
@@ -381,11 +377,9 @@ export default function Index() {
                     target="_blank"
                   >
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
-                      />
+                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-md">
+                        <i className="fas fa-database text-xl text-gray-600"></i>
+                      </div>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Data Collection
                       </p>
@@ -398,11 +392,9 @@ export default function Index() {
                     target="_blank"
                   >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
-                      />
+                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-md">
+                        <i className="fas fa-file-alt text-xl text-gray-600"></i>
+                      </div>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Generate Reports
                       </p>
@@ -413,11 +405,9 @@ export default function Index() {
                     target="_blank"
                   >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                      />
+                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-md">
+                        <i className="fas fa-chart-bar text-xl text-gray-600"></i>
+                      </div>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Analyze and Visualize
                       </p>
@@ -538,10 +528,13 @@ export default function Index() {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                See Faculty Digest in Action
+                  See Faculty Digest in Action
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Welcome to ScholarTracker! This tutorial will guide you through the key features and functionalities of our platform, ensuring you can efficiently manage and showcase your publication records.
+                  Welcome to ScholarTracker! This tutorial will guide you
+                  through the key features and functionalities of our platform,
+                  ensuring you can efficiently manage and showcase your
+                  publication records.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -598,7 +591,7 @@ export default function Index() {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png").default}
+                src={require("assets/img/video.svg").default}
               />
             </div>
           </div>
@@ -615,8 +608,10 @@ export default function Index() {
               <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
                 Frequently Asked Questions
               </h3>
-              
-                <div><Faq/></div>
+
+              <div>
+                <Faq />
+              </div>
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
@@ -647,7 +642,7 @@ export default function Index() {
           </svg>
         </div>
 
-        <IndexContact/>
+        <IndexContact />
       </section>
       <Footer />
     </>

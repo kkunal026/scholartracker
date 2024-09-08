@@ -8,7 +8,7 @@ export default function Index() {
           <div className="w-full text-center lg:w-8/12">
             <p className="text-4xl text-center">
               <span role="img" aria-label="love">
-                😍
+              <i className="fas fa-envelope text-4xl bg-white rounded-full p-4 shadow-lg"></i>
               </span>
             </p>
             <h3 className="font-semibold text-3xl">Get in Touch</h3>
