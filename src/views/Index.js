@@ -257,7 +257,7 @@ export default function Index() {
 
       <section className=" pb-40 relative bg-blueGray-100">
         <div className="container mx-auto overflow-hidden pb-20">
-          <div className="flex flex-wrap items-center">
+          {/* <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-sitemap text-xl"></i>
@@ -340,7 +340,7 @@ export default function Index() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-wrap items-center pt-32">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
