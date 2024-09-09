@@ -16,7 +16,7 @@ const InputTypeButton = ({ iconClass, title, description, isSelected, onClick })
       <i className={`${iconClass} mr-3 text-2xl ${isSelected ? 'text-blue-500' : 'text-gray-600'}`}></i>
       <h3 className={`text-xl font-semibold ${isSelected ? 'text-blue-700' : 'text-gray-800'}`}>{title}</h3>
     </div>
-    <p className={`text-sm ${isSelected ? 'text-blue-600' : 'text-gray-600'}`}>{description}</p>
+    <p className={`text-sm text-left ${isSelected ? 'text-blue-600' : 'text-gray-600'}`}>{description}</p>
     </div>
   </button>
 );
