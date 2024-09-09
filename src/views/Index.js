@@ -58,7 +58,7 @@ export default function Index() {
         </div>
 
         <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-400px"
+          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 md:mt-0 w-10/12 max-h-400px"
           src={require("assets/img/hero.svg").default}
           alt="..."
         />
@@ -108,7 +108,7 @@ export default function Index() {
                   <h4 className="text-xl font-bold text-white">
                     Streamline Your Faculty's Research Showcase
                   </h4>
-                  <p className="text-md font-light mt-2 text-white">
+                  <p className="text-md font-light mt-2 text-white sm:hidden">
                     ScholarTrack simplifies the process of collecting,
                     summarizing, and presenting faculty publication records.
                     With our intuitive platform, you can effortlessly gather

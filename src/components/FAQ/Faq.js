@@ -9,7 +9,7 @@ export default function Faq() {
           <div class="py-5 text-white">
             <details class="group">
               <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span> What is a SAAS platform?</span>
+                <span> How does this platform work?</span>
                 <span class="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -35,7 +35,7 @@ export default function Faq() {
           <div class="py-5">
             <details class="group">
               <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span> How does billing work?</span>
+                <span> What kind of resources I can access?</span>
                 <span class="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -63,7 +63,7 @@ export default function Faq() {
           <div class="py-5">
             <details class="group">
               <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span> Can I get a refund for my subscription?</span>
+                <span> How to provide the input?</span>
                 <span class="transition group-open:rotate-180">
                   <svg
                     fill="none"
@@ -92,7 +92,7 @@ export default function Faq() {
           <div class="py-5">
             <details class="group">
               <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span> How do I cancel my subscription?</span>
+                <span> What are the output options?</span>
                 <span class="transition group-open:rotate-180">
                   <svg
                     fill="none"
