@@ -26,16 +26,6 @@ export default function Index() {
                 DBLP. Customize your queries to meet accrediting agency
                 requirements and showcase your faculty's research achievements
                 with ease.
-                {/* {" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-blueGray-600"
-                  target="_blank"
-                >
-                  Tailwind CSS
-                </a>
-                . It features multiple HTML elements and it comes with dynamic
-                components for ReactJS, Vue and Angular. */}
               </p>
               <div className="mt-12">
                 <a

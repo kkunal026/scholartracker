@@ -74,7 +74,7 @@ export default function Index() {
       id: 'excel',
       iconClass: 'fas fa-file-excel',
       title: 'Excel Sheet',
-      description: 'Upload your publication records using an Excel sheet for easy data management.',
+      description: 'Upload the excel sheet with the details to be fetched.',
       form: ExcelSheetForm
     },
     {
@@ -88,7 +88,7 @@ export default function Index() {
       id: 'manual',
       iconClass: 'fas fa-edit',
       title: 'Manual Entry',
-      description: 'Manually enter your publication details for complete control over your data.',
+      description: 'Manually enter your queries to fetch required records.',
       form: ManualEntryForm
     }
   ];
