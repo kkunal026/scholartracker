@@ -74,7 +74,7 @@ export default function Index() {
       id: 'excel',
       iconClass: 'fas fa-file-excel',
       title: 'Excel Sheet',
-      description: 'Upload the excel sheet with the details to be fetched.',
+      description: 'Upload the Excel sheet with the details to be fetched.',
       form: ExcelSheetForm
     },
     {
